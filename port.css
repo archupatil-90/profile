@@ -1,0 +1,452 @@
+body {
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.mainbox {
+    width: 90%;
+    height: 600px;
+    margin: auto;
+    background-color: white;
+    /* box-shadow: 0px 0px 15px grey; */
+
+
+}
+
+.leftcontainer {
+    width: 30%;
+    height: 100vh;
+    background-color: #f2f3f7;
+    padding-top: 30px;
+    /* text-align: center; */
+    background-attachment: fixed;
+    position: fixed;
+    float: left;
+}
+
+.leftcontainer .cardwrapper {
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    background-image: url(20171210_134505.jpg);
+    background-size: cover;
+    margin: auto;
+
+}
+
+.leftcontainer ul {
+    list-style: none;
+}
+
+.leftcontainer ul li {
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    padding-top: 25px;
+    padding-left: 200px;
+}
+
+
+
+
+.icon{
+    width: 30px;
+    height: 14px;
+    margin-left: 110px;
+    float: left;
+    font-size: 25px;
+    padding-top: 25px;
+}
+
+.leftcontainer ul li a {
+    text-decoration: none;
+    color: black;
+    letter-spacing: .3px;
+    font-weight: normal;
+    transition: 1s;
+    position: absolute;
+    
+
+}
+
+.leftcontainer ul li  a::before{
+    content: '';
+    position: absolute;
+    width: 0px;
+    height: 0px;
+   
+    /* background-color: blue; */
+    top: 30px;
+    left: 40px;
+    transition: 2s ;
+}
+
+.leftcontainer ul li  a:hover::before {
+   
+    width: 50px;
+    height: 2px;
+    background-color:blue;
+    left: 15px;
+    
+}
+.fas .far{
+   
+    font-size: 2em;
+  
+}
+
+
+.rightcontainer {
+    width: 70%;
+    /* height: 100vh; */
+    margin: 0;
+    float: left;
+    margin-left: 30%;
+
+
+}
+
+.rightcontainer .img {
+    width: 85%;
+    height: 100vh;
+    background-image: url(IMG_20140627_122452.jpg);
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+    margin-left: 40px;
+
+}
+
+.rightcontainer h1 {
+    padding-top: 20%;
+    text-align: left;
+    color: white;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 1.3;
+    font-family: "Quicksand, Arial, sans-serif";
+}
+
+.rightcontainer .btn {
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.rightcontainer .aboutme {
+
+    width: 84%;
+    height: 100vh;
+    margin: auto;
+    padding: 3% 5% 0% 5%;
+
+
+
+
+}
+
+
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #999999;
+    font-weight: 600;
+    letter-spacing: .5px;
+    font-family: "Quicksand, Arial, sans-serif";
+    font-size: 30px;
+
+}
+
+.rightcontainer .aboutme p {
+    padding-top: 2%;
+    text-align: left;
+    letter-spacing: .2px;
+    color: #999999;
+    line-height: 1.5;
+    font-size: 20px;
+
+}
+
+.rightcontainer .skills {
+    /* width: 84%; */
+    height: 100vh;
+    margin: auto;
+    position: absolute;
+    padding: 3% 5% 0% 5%;
+
+}
+
+.rightcontainer .skills .card {
+    width: 80%;
+    margin: auto;
+    padding-left: 20px;
+}
+
+h3 {
+    font-size: 20px;
+    font-family: "Quicksand", Arial, sans-serif;
+    margin-bottom: 10px;
+
+}
+
+.progress {
+    height: 20px;
+    width: 100%;
+    padding: 5px;
+    margin: auto;
+    background-color: gray;
+    border-radius: 10px;
+
+
+}
+.progressbar{
+    width: 75%;
+    height: 20px;
+    border-radius: 10px;
+   
+}
+
+.progress .color1 {
+   
+    width: 75%;
+    background-color: blue;
+}
+
+.progress .color1 span {
+    
+    position: relative;
+    top: 3px;
+    left: 630px;
+}
+
+.progress .color2 {
+    width: 85%;
+    background: #f9bf3f;
+   
+
+}
+
+.progress .color2 span {
+    position: relative;
+    /* right: -42px; */
+    top: 3px;
+    left:730px;
+}
+
+.progress .color3 {
+    width: 85%;
+    background: #a84cb8;
+   
+}
+
+.progress .color3  span {
+    position: relative;
+    /* right: -42px; */
+    top: 3px;
+    left: 730px;
+}
+
+.progress .color4 {
+    width: 75%;
+    background: #ec5453;
+   
+
+}
+
+.progress .color4 span {
+    position: relative;
+    /* right: -42px; */
+    top: 3px;
+    left: 640px;
+}
+
+.progress .color5 {
+    width: 70%;
+  
+    background: #2fa499;
+  
+
+}
+
+.progress .color5 span {
+    position: relative;
+    /* right: -42px; */
+    top: 3px;
+    left: 615px;
+}
+
+
+
+
+.rightcontainer .education {
+    width: 95%;
+    height: 100vh;
+    margin: auto;
+    padding: 3% 5% 0% 2%;
+    margin-top: 23%;
+
+
+}
+
+.rightcontainer .education .contentbox {
+    width: 100%;
+    height: 130px;
+    margin: auto;
+    background-color: #f2f3f7;
+    border: 1px solid #e6e6e6;
+    color: #333333;
+    text-transform: uppercase;
+    padding-left: 3%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.rightcontainer .work {
+    width: 95%;
+    height: 100vh;
+    margin-bottom: 5%;
+    margin: auto;
+    padding: 3% 5% 0% 2%;
+
+
+
+}
+
+.rightcontainer .work .cardwrap {
+    width: 100%;
+    margin-bottom: 5%;
+    /* margin-left: 20px;
+margin-right: 10px; */
+    float: left;
+
+}
+
+.rightcontainer .work .cardwrap a {
+    text-decoration: none;
+}
+
+.rightcontainer .work .cardwrap .img2 {
+    width: 400px;
+    height: 230px;
+    margin-left: 95px;
+    /* margin-right: 100px; */
+    margin-top: 30px;
+    float: left;
+}
+
+
+.rightcontainer .contact {
+    width: 95%;
+    height: 100vh;
+    margin: auto;
+    padding: 3% 5% 0% 2%;
+
+
+}
+
+.mainbox .rightcontainer .contact .leftbox {
+    width: 53%;
+    height: 100vh;
+
+    float: left;
+
+
+}
+
+.mainbox .rightcontainer .contact .leftbox .cardbox {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+
+
+}
+
+.rightcontainer .contact .leftbox .boximg {
+    width: 100px;
+    height: 70px;
+    float: left;
+    background-color: #f2f3f7;
+    padding-top: 20px;
+}
+
+.rightcontainer .contact .leftbox .boximg .img1 {
+    width: 50px;
+    height: 57px;
+    padding-left: 23px;
+
+    padding: 25px;
+
+}
+
+
+.rightcontainer .contact .leftbox .text {
+    width: 60%;
+    padding-top: 20px;
+    float: left;
+    padding-left: 15px;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+}
+
+
+
+
+
+
+.rightcontainer .contact .leftbox .text a {
+    text-decoration: none;
+    color: #2c98f0;
+}
+
+.rightcontainer .contact .rightbox {
+    width: 42%;
+    height: 100%;
+    margin-left: 5%;
+    float: left;
+
+
+}
+
+.rightcontainer .contact .rightbox .text {
+    height: 54px;
+    margin: auto;
+    width: 97%;
+    background-color: #f2f3f7;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    border: none;
+    font-size: 20px;
+}
+
+.text1 {
+    height: 120px;
+    width: 97%;
+    background-color: #f2f3f7;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    border: none;
+    font-size: 20px;
+}
+
+.rightcontainer .contact .rightbox .btn {
+    background: #2c98f0;
+    color: #fff;
+  
+    border-radius: 5px;
+    transition: 1s;
+}
+.rightbox .btn:hover{
+   
+    background-color: white;
+    color: blue;
+    border: 2px dashed #2c98f0;
+
+}
