@@ -43,9 +43,9 @@ html{
 .leftcontainer ul li {
     width: 200px;
     height: 50px;
-    font-size: 25px;
-    padding-top: 25px;
-    padding-left: 200px;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 150px;
 }
 
 
@@ -57,7 +57,7 @@ html{
     margin-left: 110px;
     float: left;
     font-size: 25px;
-    padding-top: 25px;
+    padding-top: 10px;
 }
 
 .leftcontainer ul li a {
@@ -237,7 +237,7 @@ h3 {
     position: relative;
     /* right: -42px; */
     top: 3px;
-    left:580px;
+    left:545px;
 }
 
 .progress .color3 {
@@ -250,7 +250,7 @@ h3 {
     position: relative;
     /* right: -42px; */
     top: 3px;
-    left: 580px;
+    left: 545px;
 }
 
 .progress .color4 {
@@ -334,9 +334,9 @@ margin-right: 10px; */
 }
 
 .rightcontainer .work .cardwrap .img2 {
-    width: 400px;
+    width: 340px;
     height: 230px;
-    margin-left: 95px;
+    margin-left: 30px;
     /* margin-right: 100px; */
     margin-top: 30px;
     float: left;
