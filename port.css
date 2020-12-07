@@ -1,8 +1,12 @@
 body {
     margin: 0;
+    
 }
 html{
     scroll-behavior: smooth;
+    background-image: url(backg.jpg);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
 }
 
 .mainbox {
@@ -19,13 +23,15 @@ html{
 .leftcontainer {
     width: 30%;
     height: 100vh;
-    background-color: #f2f3f7;
+    background-color: #a6cafe;
     padding-top: 30px;
     /* text-align: center; */
     background-attachment: fixed;
     position: fixed;
     float: left;
-    box-shadow: 1px 1px 10px #f29837;
+    box-shadow: 1px 1px 10px#2d98f0 ;
+    ;
+
 }
 
 .leftcontainer .cardwrapper {
@@ -89,12 +95,13 @@ html{
 
 .leftcontainer ul li:hover a{
     /* color:#2d98f0; */
-    color: #2c98f1;
+    color:blue;
+    
    
    
 }
 .leftcontainer ul li:hover{
-    color: #2c98f1;
+    color: blue;
 }
 
 .leftcontainer ul li  a::before{
@@ -113,7 +120,7 @@ html{
    
     width: 100%;
     height: 1px;
-    background-color:#2d98f0 ;
+    background-color:blue ;
     left: 0;
   
     
@@ -136,8 +143,8 @@ html{
 }
 
 .rightcontainer .img {
-    width: 85%;
-    height: 100vh;
+    width: 86%;
+    height: 105vh;
     background-image: url(IMG_20140627_122452.jpg);
     background-size: cover;
     padding-left: 5%;
@@ -336,6 +343,7 @@ h3 {
     /* background-color: #f2f3f7; */
     border: 1px solid #e6e6e6;
     color: #333333;
+    background-color: #a6cafe;
     text-transform: uppercase;
     margin-top: 15px;
     text-align: center;
