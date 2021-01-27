@@ -1,12 +1,13 @@
 body {
     margin: 0;
+   
     
 }
 html{
     scroll-behavior: smooth;
-    background-image: url(backg.jpg);
+    /* background-image: url(backg.jpg);
     /* background-repeat: no-repeat; */
-    background-size: cover;
+    /* background-size: cover; */ */
 }
 
 .mainbox {
@@ -23,14 +24,15 @@ html{
 .leftcontainer {
     width: 30%;
     height: 100vh;
-    background-color: #a6cafe;
+    background-color: #f5f5f5;
+
+    /* background-color: #a6cafe; */
     padding-top: 30px;
     /* text-align: center; */
     background-attachment: fixed;
     position: fixed;
     float: left;
-    box-shadow: 1px 1px 10px#2d98f0 ;
-    ;
+    
 
 }
 
@@ -52,7 +54,7 @@ html{
     width: 200px;
     height: 50px;
     font-size: 20px;
-    padding-top: 10px;
+    /* padding-top: 10px; */
     padding-left: 105px;
     transition: .6s;
 }
@@ -125,10 +127,49 @@ html{
   
     
 }
-.fas .far{
+.icons{
+    width:60%;
+    height:40px;
+    margin: auto;
+}
+
+.socialicon{
+    font-size: 1.5em;
+    float: left;
+    margin: auto;
+    margin: 0px 5px;
+    
+}
+.iconback{
+    width:40px;
+    height:40px;
+    border-radius: 100%;
+    border: 1px solid #2d98f054;
+    background-color: transparent;
+    /* background-color: #2d98f054; */
+    float: left;
+    transition: 0.6s;
+}
+.iconback:hover{
+    border: 1px solid #144fad;
+}
+.iconback:hover i{
+    color:#144fad ;
+}
+.iconback .i{
+    margin: 10px 12px;
+
+}
+i{
    
-    font-size: 2em;
+    font-size: 1em;
   
+}
+.leftcontainer footer{
+    width:200px;height:50px;margin:auto
+}
+.leftcontainer footer p{
+    font-size: 15px;
 }
 
 
@@ -143,14 +184,15 @@ html{
 }
 
 .rightcontainer .img {
-    width: 86%;
+    width: 95%;
     height: 105vh;
     background-image: url(IMG_20140627_122452.jpg);
     background-size: cover;
-    padding-left: 5%;
-    padding-right: 5%;
+    /* padding-left: 5%; */
+    padding-right: 2%;
     padding-top: 1%;
-    margin-left: 40px;
+    margin-left: 55px;
+  
 
 }
 
@@ -162,7 +204,10 @@ html{
     font-weight: 600;
     line-height: 1.3;
     font-family: "Quicksand, Arial, sans-serif";
+    margin-left: 5%;
 }
+
+
 
 .rightcontainer .btn {
     width: 200px;
@@ -173,16 +218,16 @@ html{
     color: #144fad;
     border-radius: 10px;
     background-color: transparent;
-
+margin-left: 5%;
 }
 
 .rightcontainer .aboutme {
 
-    width: 84%;
+    width: 95%;
     height: 100vh;
     margin: auto;
     padding: 3% 2% 0% 5%;
-
+    /* background-color: #f5f5f5; */
 
 
 
@@ -199,16 +244,18 @@ h2 {
     letter-spacing: .5px;
     font-family: "Quicksand, Arial, sans-serif";
     font-size: 25px;
+    margin-bottom: 50px;
 
 }
 
 .rightcontainer .aboutme p {
-    padding-top: 2%;
+   
     text-align: left;
     letter-spacing: .2px;
     color: black;
     line-height: 1.5;
     font-size: 20px;
+    padding-left: 5%;
 
 }
 
@@ -216,7 +263,7 @@ h2 {
     /* width: 84%; */
     height: 100vh;
     margin: auto;
-    position: absolute;
+  
     padding: 3% 5% 0% 5%;
 
 }
@@ -252,8 +299,18 @@ h3 {
     height: 10px;
     border-radius: 10px;
     background-color: blue;
+    animation: color1 8s;
     /* transform: scale(0);
     transition: 1s; */
+}
+@keyframes color1{
+    0%{
+        width:0%;
+    }
+    
+    100%{
+        width:75%;
+    }
 }
 
 .progress span {
@@ -267,8 +324,17 @@ h3 {
     height: 10px;
     border-radius: 10px;
     background: #f9bf3f;
+    animation: color2 8s;
    
 
+}
+@keyframes color2{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:85%;
+    }
 }
 
 
@@ -278,7 +344,16 @@ h3 {
     height: 10px;
     border-radius: 10px;
     background: #a84cb8;
+    animation: color3 8s;
    
+}
+@keyframes color3{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:85%;
+    }
 }
 
 
@@ -288,8 +363,17 @@ h3 {
     height: 10px;
     border-radius: 10px;
     background: #ec5453;
+    animation: color4 8s;
    
 
+}
+@keyframes color4{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:75%;
+    }
 }
 
 
@@ -298,8 +382,17 @@ h3 {
     height: 10px;
     border-radius: 10px;
     background: #2fa499;
+    animation: color5 8s;
   
 
+}
+@keyframes color5{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:70%;
+    }
 }
 
 
@@ -332,7 +425,7 @@ h3 {
     text-align: center;
     position: relative;
     visibility:visible;
-  
+  transition: 0.6s;
 }
 .rightcontainer .education .contentbox .content{
     
@@ -349,6 +442,7 @@ h3 {
     text-align: center;
     visibility: hidden;
     margin-bottom: 20px;
+    transition: 0.6s;
     
 
 }
@@ -373,6 +467,7 @@ h3 {
     margin-bottom: 5%;
     margin: auto;
     padding: 3% 5% 0% 2%;
+    /* background-color: #f5f5f5; */
 
 
 
@@ -392,11 +487,11 @@ margin-right: 10px; */
 }
 
 .rightcontainer .work .cardwrap .img2 {
-    width: 340px;
+    width: 313px;
     height: 230px;
-    margin-left: 30px;
+    margin-left: 50px;
    
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     float: left;
     
 }
